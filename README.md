@@ -1,4 +1,21 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Starwars search app
+
+The starwars search app is made to be able to search up either starships or vehicles and show the model and their length
+using the starwars api. (www.swapi.co)
+
+It is made using redux and react. 
+
+Right now redux is responsible for providing the available search types (starships or vehicles) and manages the api call.
+
+The search is inclusive so if you search for example the letter d, it will search for all names and models that have "d"
+included.
+
+Testing is done via Jest using the create-react-app template. I have never worked with JEST so it was fun learning new ways to test.  I used the redux and jest and enzymes articles documentation for testing but was unable to test the components and their interaction with the redux store (for example: If a valid input and select is given it should call on the GET_DATA action).
+
+I also have never worked with redux before so it was definitely also fun learning a new technology.
+
+
 
 ## Available Scripts
 
